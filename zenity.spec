@@ -12,6 +12,8 @@ BuildRequires: gcc pkgconfig(gtk+-3.0) >= 3.0.0 pkgconfig(libnotify) >= 0.6.1 wh
 %description
 Zenity is a tool that allows you to display GTK dialog boxes in commandline and shell scripts.
 
+%package_help
+
 %prep
 %setup -q
 
@@ -30,6 +32,8 @@ make V=1 %{?_smp_mflags}
 %doc AUTHORS NEWS THANKS README
 %{_bindir}/zenity
 %{_datadir}/zenity
+
+%files help
 %{_mandir}/man1/zenity.1*
 
 %changelog
