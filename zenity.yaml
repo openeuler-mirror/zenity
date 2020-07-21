@@ -1,0 +1,4 @@
+version_control: gitlab.gnome
+src_repo: zenity
+tag_prefix: ZENITY_
+seperator: "_"
