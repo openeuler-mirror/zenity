@@ -1,6 +1,6 @@
 Name:          zenity
-Version:       3.30.0
-Release:       2
+Version:       3.32.0
+Release:       1
 Summary:       Display GTK dialog boxes in commandline and shell scripts
 
 License:       LGPLv2+
@@ -37,5 +37,8 @@ make V=1 %{?_smp_mflags}
 %{_mandir}/man1/zenity.1*
 
 %changelog
+* Mon Aug 18 2020 zhanzhimin <zhanzhimin@huawei.com> - 3.32.0-1
+- Upgrade to 3.32.0-1
+
 * Thu Sep 12 2019 openEuler Buildteam <buildteam@openeuler.org> - 3.30.0-2
 - Package init
