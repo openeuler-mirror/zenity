@@ -1,11 +1,11 @@
 Name:          zenity
 Version:       3.32.0
-Release:       1
+Release:       2
 Summary:       Display GTK dialog boxes in commandline and shell scripts
 
 License:       LGPLv2+
 URL:           https://wiki.gnome.org/Projects/Zenity
-Source:        https://download.gnome.org/sources/zenity/3.30/zenity-%{version}.tar.xz
+Source:        https://download.gnome.org/sources/zenity/3.32/zenity-%{version}.tar.xz
 
 BuildRequires: gcc pkgconfig(gtk+-3.0) >= 3.0.0 pkgconfig(libnotify) >= 0.6.1 which gettext intltool itstool
 
@@ -37,6 +37,9 @@ make V=1 %{?_smp_mflags}
 %{_mandir}/man1/zenity.1*
 
 %changelog
+* Mon Sep 7 2020 zhanzhimin <zhanzhimin@huawei.com> - 3.32.0-2
+- update source0
+
 * Mon July 20 2020 chnegguipeng<chnegguipeng1@huawei.com> - 3.32.0-1
 - Upgrade to 3.32.0-1
 
